@@ -12,17 +12,24 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
-    company: 'Company 1',
+    company: 'Bonasys IT solutions pvt ltd',
     employmentType: 'Internship',
-    duration: 'June 2022 - August 2022',
+    duration: 'Feb 2024 - May 2024',
     description: 'Worked on frontend development and improved user experience by 15%.',
     category: 'Internship',
   },
   {
-    company: 'Company 2',
-    employmentType: 'Volunteering',
-    duration: 'January 2021 - May 2021',
-    description: 'Helped organize community outreach events and managed project workflows.',
+    company: 'EddieHub',
+    employmentType: 'community-member',
+    duration: 'Jan 2021 - Present',
+    description: 'Helped organize community outreach events & Guided Beginners to get started with Open source contributions',
+    category: 'Volunteering',
+  },
+  {
+    company: 'LetsGrowMore',
+    employmentType: 'Contributor',
+    duration: 'Jul 2022 - Oct 2022',
+    description: 'contributed to various projects and worked with different technologies & did code reviews',
     category: 'Volunteering',
   },
   // Add more experiences as needed

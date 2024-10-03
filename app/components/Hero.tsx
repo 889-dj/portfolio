@@ -6,7 +6,7 @@ import useDownloader from 'react-use-downloader'
 
 const Hero = () => {
   const {download} = useDownloader();
-  const fileUrl = '/docs/dev.pdf'
+  const fileUrl = '/docs/dev-sde.pdf'
   const fileName = 'mycv.pdf'
   return (
     <section id="hero" className="min-h-screen flex items-center justify-between">
@@ -51,7 +51,7 @@ const Hero = () => {
               whileTap={{ scale: 0.9 }}
               onClick={()=>download(fileUrl,fileName)}
             >
-              <span><DownloadSimple size={32} weight="bold" className='inline'/></span> Resume
+              <span><DownloadSimple size={24} weight="bold" className='inline'/></span> Resume
             </motion.button>
           </div>
         </div>
